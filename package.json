@@ -1,0 +1,30 @@
+{
+  "name": "onion-melt",
+  "version": "1.0.0",
+  "description": "using all tools together",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -t 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osukaa/onion-melt.git"
+  },
+  "keywords": [
+    "api",
+    "blueprint",
+    "markdown",
+    "html"
+  ],
+  "author": "Oscar Funes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osukaa/onion-melt/issues"
+  },
+  "homepage": "https://github.com/osukaa/onion-melt#readme",
+  "dependencies": {
+    "cipolla": "git+https://github.com/osukaa/cipolla.git",
+    "cipolla-test-theme": "git+https://github.com/osukaa/cipolla-test-theme.git",
+    "onion": "git+https://github.com/osukaa/onion.git"
+  }
+}
